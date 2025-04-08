@@ -1,4 +1,4 @@
-# Academic Certificate Management Portal 🎓
+# Academic Certificate Portal 🎓
 
 ## 📌 Project Overview
 This is a web-based application developed to streamline the academic certificate management process. Students can apply for various certificates online, while the admin manages all requests, approvals, and generates the final certificates. The platform also integrates Razorpay for handling application fees securely.
