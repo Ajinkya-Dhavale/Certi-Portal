@@ -434,7 +434,7 @@
 								</li>
 								<li>
 									<span class="point-label">(C)</span>
-									<span class="point-text"> has no books in <span th:text="${tc.gender == 'Male' ? 'him' : 'her'}"></span> possession belonging to this
+									<span class="point-text"><span th:text="${tc.gender == 'Male' ? 'He' : 'She'}"></span> has no books in <span th:text="${tc.gender == 'Male' ? 'him' : 'her'}"></span> possession belonging to this
 										College.</span>
 								</li>
 								<li>
@@ -444,7 +444,7 @@
 								<li>
 									<span class="point-label">(E)</span>
 									<span class="point-text">
-										<span th:text="${tc.gender == 'Male' ? 'him' : 'her'}"></span> birth date as entered in the college Register is<br>
+										<span th:text="${tc.gender == 'Male' ? 'His' : 'Her'}"></span> birth date as entered in the college Register is<br>
 										<span class="indent">&nbsp;&nbsp;&nbsp;In Figures:
 <strong id="formattedDob" th:text="${tc.dob}"></strong></span>
 
@@ -470,7 +470,7 @@
 								<li>
 									<span class="point-label">(G)</span>
 									<span class="point-text">
-										<span th:text="${tc.gender == 'Male' ? 'Him' : 'Her'}"></span> voluntary subject or group of subjects in which she attended the course of
+										<span th:text="${tc.gender == 'Male' ? 'His' : 'Her'}"></span> voluntary subject or group of subjects in which <span th:text="${tc.gender == 'Male' ? 'he' : 'she'}"></span></span> attended the course of
 										instruction in this college<br>
 										<span class="indent">&nbsp;&nbsp;&nbsp;was <strong><u th:text="*{tc.course}"></u></strong></span>
 									</span>
@@ -486,7 +486,7 @@
 										<span th:text="${tc.gender == 'Male' ? 'He' : 'She'}"></span> has satisfactorily gone through the course of physical training prescribed
 										by the university. <span th:text="${tc.gender == 'Male' ? 'He' : 'She'}"></span> was<br>
 										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; exempted from P.T. on medical ground / on
-										the ground of her being a member of N.C.C. / on the ground
+										the ground of <span th:text="${tc.gender == 'Male' ? 'his' : 'her'}"></span></span> being a member of N.C.C. / on the ground
 										<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of his </span><span
 										class="point-text">active membership of a
 										recognized major games of the college team.

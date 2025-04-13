@@ -397,7 +397,7 @@
 										in
 										<span class="bold" th:text="${#strings.toUpperCase(bonafide.course)}"></span> in the current
 										academic year <span class="bold" th:text="*{bonafide.year}"></span>. <span
-											th:text="*{bonafide.gender == 'Male' ? 'Him' : 'Her'}"></span> Roll Number
+											th:text="*{bonafide.gender == 'Male' ? 'His' : 'Her'}"></span> Roll Number
 										is
 										<span class="bold" th:text="*{bonafide.studentId}"></span> and <span
 											th:text="*{bonafide.gender == 'Male' ? 'He' : 'She'}"></span> is in Division
@@ -405,7 +405,7 @@
 										<br>
 										<br>
 										<p>As per &nbsp;college &nbsp;records,&nbsp; <span
-												th:text="*{bonafide.gender == 'Male' ? 'him' : 'her'}"></span> date of
+												th:text="*{bonafide.gender == 'Male' ? 'his' : 'her'}"></span> date of
 											birth is
 											<span class="bold" th:text="*{bonafide.dob}" id="formattedDob"></span>
 
@@ -421,7 +421,7 @@
 											        }
 											    });
 											</script>
-											 &nbsp;and <span th:text="*{bonafide.gender == 'Male' ? 'him' : 'her'}"></span>
+											 &nbsp;and <span th:text="*{bonafide.gender == 'Male' ? 'his' : 'her'}"></span>
 											&nbsp;date of &nbsp;birth
 											&nbsp;words is
 											<span class="bold" th:text="*{bonafide.dobInWords}"></span>.
@@ -431,7 +431,8 @@
 
 									<br />
 
-									<p class="asper">As per our record her address :</p><br>
+									<p class="asper">As per our record <span
+										th:text="*{bonafide.gender == 'Male' ? 'his' : 'her'}"></span> address :</p><br>
 
 									<div class="st-address">
 										<p><span class="bold">Permanent Address :</span></p>
